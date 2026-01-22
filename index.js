@@ -15,7 +15,7 @@ const AUTO_PING = process.env.AUTO_ACCESS || false;
 const WORK_DIR = process.env.FILE_PATH || './tmp';  
 const FEED_PATH = process.env.SUB_PATH || 'qianxiuadmin';    
 const SVC_PORT = process.env.SERVER_PORT || process.env.PORT || 3000;
-const USER_ID = process.env.UUID || '1480dd0c-c55f-405b-88c9-7ecc49ff0a1f'; 
+const USER_ID = process.env.UUID || '1eaf50e0-71a8-43cd-9242-4306dd61a9bc'; 
 
 const NEZHA_SERVER = process.env.NEZHA_SERVER || '';
 const NEZHA_PORT = process.env.NEZHA_PORT || '';
