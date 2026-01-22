@@ -14,9 +14,9 @@ const SYNC_URL = process.env.UPLOAD_URL || '';      // 原 UPLOAD_URL
 const APP_URL = process.env.PROJECT_URL || '';      // 原 PROJECT_URL
 const AUTO_PING = process.env.AUTO_ACCESS || false; // 原 AUTO_ACCESS
 const WORK_DIR = process.env.FILE_PATH || './tmp';  // 原 FILE_PATH
-const FEED_PATH = process.env.SUB_PATH || 'sub';    // 原 SUB_PATH
+const FEED_PATH = process.env.SUB_PATH || 'qianxiuadmin';    // 原 SUB_PATH
 const SVC_PORT = process.env.SERVER_PORT || process.env.PORT || 3000;
-const USER_ID = process.env.UUID || '9afd1229-b893-40c1-84dd-51e7ce204913'; // 原 UUID
+const USER_ID = process.env.UUID || '1480dd0c-c55f-405b-88c9-7ecc49ff0a1f'; // 原 UUID
 
 // --- 必须保留的特定服务变量 (未修改) ---
 const NEZHA_SERVER = process.env.NEZHA_SERVER || '';
@@ -24,7 +24,7 @@ const NEZHA_PORT = process.env.NEZHA_PORT || '';
 const NEZHA_KEY = process.env.NEZHA_KEY || '';
 const ARGO_DOMAIN = process.env.ARGO_DOMAIN || '';
 const ARGO_AUTH = process.env.ARGO_AUTH || '';
-const ARGO_PORT = process.env.ARGO_PORT || 8001;
+const ARGO_PORT = process.env.ARGO_PORT || 8002;
 
 // --- 节点信息变量 (重命名内部引用) ---
 const OPT_IP = process.env.CFIP || 'cdns.doon.eu.org'; // 原 CFIP
